@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List & Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="products-section">
+            <h1>Desserts</h1>
+            
+            <!-- Search bar -->
+            <div class="search-container">
+                <input type="text" id="search-input" class="search-input" placeholder="Search for desserts..." autocomplete="off">
+                <img src="./assets/images/icon-add-to-cart.svg" alt="Search icon" class="search-icon" width="16" height="16">
+            </div>
+            
+            <!-- Filter buttons container -->
+            <div class="filter-buttons">
+                <!-- Filter buttons will be dynamically added here by JavaScript -->
+            </div>
+            
+            <div class="products-grid">
+                </div>
+        </section>
+
+        <aside class="cart-section">
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                </div>
+            <div class="cart-total">
+                <p>Order Total</p>
+                <p class="total-price">$0.00</p>
+            </div>
+            <button class="confirm-order-btn">Confirm Order</button>
+        </aside>
+    </main>
+
+    <script src="app.js"></script>
+    
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+        Coded by <a href="#">Misty Waters</a>.
+    </div>
+</body>
+</html>
